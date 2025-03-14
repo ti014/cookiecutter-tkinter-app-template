@@ -3,13 +3,13 @@ import shutil
 import requests
 
 LICENSE_URLS = {
-    "MIT": "https://opensource.org/licenses/MIT",
-    "GPL-3.0": "https://opensource.org/licenses/GPL-3.0",
-    "BSD-3-Clause": "https://opensource.org/licenses/BSD-3-Clause",
-    "Apache-2.0": "https://opensource.org/licenses/Apache-2.0",
-    "Unlicense": None,  # No URL - handled specially
-    "Proprietary": None, # No URL - handled specially
-    "Custom": None,      # No URL - handled specially
+    "MIT": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+    "GPL-3.0": "https://www.gnu.org/licenses/gpl-3.0.txt",
+    "BSD-3-Clause": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/BSD-3-Clause.txt",
+    "Apache-2.0": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/Apache-2.0.txt",
+    "Unlicense": None,
+    "Proprietary": None,
+    "Custom": None,
 }
 
 def download_license(url, destination_path):
