@@ -24,9 +24,7 @@ Template này cung cấp một cấu trúc dự án Tkinter chuẩn, bao gồm:
     ```bash
     cookiecutter https://github.com/ti014/cookiecutter-tkinter-app-template
     ```
-
-    **Quan trọng:** Thay thế `<your-username>` và `<your-repo-name>` bằng tên người dùng và tên repository GitHub của bạn.
-
+    
 3.  **Trả lời các câu hỏi:**
 
     Cookiecutter sẽ hiển thị một loạt câu hỏi để bạn tùy chỉnh dự án:
