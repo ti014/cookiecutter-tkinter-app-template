@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "{{cookiecutter.project_slug}}"
+version = "0.1.0"
+description = "{{cookiecutter.description}}"
+readme = "README.md"
+requires-python = ">={{cookiecutter.python_version}}"
+license = {file = "LICENSE"}
+
+[project.scripts]
+{{cookiecutter.project_slug}} = "main:main"
